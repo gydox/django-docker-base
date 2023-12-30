@@ -19,12 +19,35 @@ The project structure is organized as follows:
 
 ## Configuration
 
-- **Django settings:** You can modify Django project settings in `app/app/settings.py`.
-- **PostgreSQL settings:** Database configurations can be adjusted in `docker-compose.yml`.
+### Setup Instructions
+
+1. **Rename .env.example to .env:**  
+   Rename the `.env.example` file in the root directory to `.env`. This file contains environment variables that the Django project uses for settings.
+
+2. **Modify Django settings:**  
+   You can modify Django project settings in `app/app/settings.py`.
+
+3. **PostgreSQL settings:**  
+   Database configurations can be adjusted in `docker-compose.yml`.
 
 ## Database
 
 This setup uses a PostgreSQL database. The database is configured in the `docker-compose.yml` file, and the database data will persist in the `postgres_data/` directory.
+
+## Project Setup
+
+To set up and run the project, follow these steps:
+
+1. Rename the `.env.example` file to `.env`.
+2. Modify the necessary settings in the `.env` file and `docker-compose.yml` if required.
+3. Run the following command in the terminal:
+
+   ```bash
+   docker-compose up -d --build
+
+This command will build the Docker images and start the containers.
+
+Access the Django application at http://localhost:8000/.
 
 ## Contributing
 
