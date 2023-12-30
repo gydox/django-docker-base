@@ -6,6 +6,7 @@ This repository serves as a base setup for a Django project using Docker with Po
 
 Make sure you have the following installed:
 
+- [Python](https://www.python.org/) (with pip)
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
