@@ -15,7 +15,6 @@ Make sure you have the following installed:
 The project structure is organized as follows:
 
 - `app/`: Contains the Django project files.
-- `postgres/`: Contains the PostgreSQL database configuration.
 - `docker-compose.yml`: Configuration file for Docker Compose.
 
 ## Configuration
