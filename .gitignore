@@ -90,3 +90,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+### dotenv ###
+.env
+
+**/__pycache__
